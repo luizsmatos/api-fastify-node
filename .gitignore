@@ -78,6 +78,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
+.env.test
 .env.development.local
 .env.test.local
 .env.production.local
@@ -120,7 +121,7 @@ dist
 .dynamodb/
 
 # SQLite local files
-db/app.db
+db/*.db
 
 # TernJS port file
 .tern-port
